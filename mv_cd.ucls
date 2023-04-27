@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="board.command.BoardUpdateHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/board/command/BoardUpdateHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="130" width="147" x="3" y="-4"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="board.command.MemberDeleteHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/board/command/MemberDeleteHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="151" x="153" y="-3"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="board.command.MemberListHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/board/command/MemberListHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="136" x="307" y="-4"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="board.command.BoardWriteHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/board/command/BoardWriteHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="133" x="446" y="-4"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="board.command.BoardViewHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/board/command/BoardViewHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="130" x="580" y="-3"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="board.command.MemberViewHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/board/command/MemberViewHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="143" x="996" y="-4"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="board.command.BoardDeleteHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/board/command/BoardDeleteHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="138" x="1140" y="-4"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="board.command.BoardListHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/board/command/BoardListHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="123" x="713" y="-4"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="board.command.MemberUpdateHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/board/command/MemberUpdateHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="155" x="838" y="-4"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="common.command.AdminPageHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/common/command/AdminPageHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="308" x="2" y="152"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="11" language="java" name="common.command.CommandHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/common/command/CommandHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="104" width="485" x="378" y="224"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="12" language="java" name="common.command.MyPageHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/common/command/MyPageHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="308" x="2" y="272"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="common.command.NullHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/common/command/NullHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="284" x="2" y="391"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="common.command.MainHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/common/command/MainHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="308" x="2" y="492"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="common.controller.ControllerUsingURI" project="Movie_project" 
+    file="/Movie_project/src/main/java/common/controller/ControllerUsingURI.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1138" y="318"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="index.command.ListHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/index/command/ListHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="316" x="3" y="639"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="index.command.MovieHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/index/command/MovieHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="308" x="3" y="778"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="member.command.LoginHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/member/command/LoginHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="123" x="1307" y="-2"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="member.command.IdCheckHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/member/command/IdCheckHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="114" x="1307" y="137"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="member.command.JoinHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/member/command/JoinHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="123" x="1307" y="239"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="member.command.LogoutHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/member/command/LogoutHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="115" x="1307" y="378"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="member.command.MemberUpdateHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/member/command/MemberUpdateHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="155" x="1307" y="499"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="member.dao.MemberDAO" project="Movie_project" 
+    file="/Movie_project/src/main/java/member/dao/MemberDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="259" width="227" x="548" y="525"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="member.dto.MemberVO" project="Movie_project" 
+    file="/Movie_project/src/main/java/member/dto/MemberVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="185" width="205" x="342" y="525"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="movie.dao.MovieDAO" project="Movie_project" 
+    file="/Movie_project/src/main/java/movie/dao/MovieDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="164" width="204" x="342" y="713"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="movie.dto.MovieVO" project="Movie_project" 
+    file="/Movie_project/src/main/java/movie/dto/MovieVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="305" width="157" x="778" y="524"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="reserve.command.ReserveSeatHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/reserve/command/ReserveSeatHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="141" x="5" y="904"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="reserve.command.ReserveCancleHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/reserve/command/ReserveCancleHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="154" x="148" y="904"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="reserve.command.ReserveScheduleHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/reserve/command/ReserveScheduleHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="168" x="305" y="906"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="reserve.command.TheaterDateHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/reserve/command/TheaterDateHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="138" x="476" y="906"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="reserve.command.ReserveHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/reserve/command/ReserveHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="139" x="617" y="906"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="reserve.command.ReserveCompleteHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/reserve/command/ReserveCompleteHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="169" x="758" y="906"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="reserve.command.ReserveCheckHandler" project="Movie_project" 
+    file="/Movie_project/src/main/java/reserve/command/ReserveCheckHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="151" x="929" y="907"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="reserve.dao.ReserveDAO" project="Movie_project" 
+    file="/Movie_project/src/main/java/reserve/dao/ReserveDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="219" width="188" x="937" y="525"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="reserve.dto.ReserveVO" project="Movie_project" 
+    file="/Movie_project/src/main/java/reserve/dto/ReserveVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="271" width="162" x="1128" y="525"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="seat.dao.SeatDAO" project="Movie_project" 
+    file="/Movie_project/src/main/java/seat/dao/SeatDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="180" width="174" x="1141" y="819"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="seat.dto.SeatVO" project="Movie_project" 
+    file="/Movie_project/src/main/java/seat/dto/SeatVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="211" width="161" x="1319" y="819"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="theater_date.dao.Theater_DateDAO" project="Movie_project" 
+    file="/Movie_project/src/main/java/theater_date/dao/Theater_DateDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="138" x="1491" y="363"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="theater_date.dto.Theater_DateVO" project="Movie_project" 
+    file="/Movie_project/src/main/java/theater_date/dto/Theater_DateVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1577" y="803"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="theater.dao.TheaterDAO" project="Movie_project" 
+    file="/Movie_project/src/main/java/theater/dao/TheaterDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="138" width="138" x="1490" y="191"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="theater.dto.TheaterVO" project="Movie_project" 
+    file="/Movie_project/src/main/java/theater/dto/TheaterVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1567" y="91"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="util.DBManager" project="Movie_project" 
+    file="/Movie_project/src/main/java/util/DBManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="282" x="647" y="358"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="43">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <association id="44">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="45" name="instance"/>      
+      <multiplicity id="46" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="47">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="48">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="49">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="50">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="51">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="52">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="53">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <association id="54">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="55" name="instance"/>      
+      <multiplicity id="56" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="57">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="58">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="59">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="60">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <association id="61">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="62" name="commandHandlerMap"/>      
+      <multiplicity id="63" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="64">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <association id="65">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="66" name="instance"/>      
+      <multiplicity id="67" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="68">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="69">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="70">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="71">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="72">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="73">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <association id="74">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="75" name="instance"/>      
+      <multiplicity id="76" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="77">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="78">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="79">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="80">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="81">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="82">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="83">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <association id="84">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="85" name="instance"/>      
+      <multiplicity id="86" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="87">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

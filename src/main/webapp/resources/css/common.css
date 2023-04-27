@@ -1,0 +1,768 @@
+/* reset */
+
+body, html {   
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+}
+body * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 300;
+}
+
+ul, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ol {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  text-decoration: none;
+}
+
+input, select, textarea, fieldset, button {
+  outline: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  min-width: auto;
+  border: 0;
+  cursor: pointer;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #999999;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #999999;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #999999;
+}
+
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  color: #999999;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #999999;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+em {
+  font-style: normal;
+}
+
+textarea {
+  resize: none;
+}
+
+.hidden {
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  display: inline-block;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+
+.min-hi1000{
+   min-height:1000px;
+}
+
+/* 상영일자 */
+
+.txt_ct{
+  text-align: center;
+}
+
+.btn{ /* 버튼 폼 */
+  outline: none;
+  border-radius: 3px;
+  text-align: center;  
+  font-weight: 400;
+  border: 1px solid transparent; 
+}
+
+.btn_type1{
+  background-color: #F2AB39;
+  color:white;
+  font-weight: bold;
+  padding:10px;
+}
+.btn_type2{
+  border: 2px solid #F2AB39;
+  background-color: lightgray;
+  color:black;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+.btn_type3{
+  border: 2px solid #F2AB39;
+  background-color: black;
+  color:white;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+
+
+
+.hidden {
+overflow: hidden;
+position: absolute;
+width: 1px;
+height: 1px;
+clip: rect(1px, 1px, 1px, 1px);
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  width: 480px;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+.changing {
+  transition:opacity 0.3s;
+  pointer-events:none;
+}
+
+.changed {  
+  transition:none;
+}
+
+
+/* pagination */
+.mySwiper .swiper-pagination {
+  position: absolute;
+  bottom: -30px;
+  text-align:left;
+  
+}
+
+.main-section .swiper{
+  width: 500px;
+}
+
+
+
+/* nav btn*/
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  top: 50%;
+}
+
+.mySwiper .swiper-button-prev {
+  transform:translateX(-200%);
+}
+.mySwiper .swiper-button-next {
+  transform:translateX(200%);
+}
+
+.custom-fraction {text-align:right; margin:15px 5px 0 0;}
+.btn-wrapper {
+  margin-top:50px;
+} 
+.mySwiper .swiper-slide{
+text-align : center;
+/*padding-top: 30px;*/
+width:50px;
+}
+.movie-mySwiper .swiper-slide{
+display: flex;
+justify-content: center;
+}
+.show_date{
+width: 100%; 
+height:100px; 
+}
+/*
+.show_date .swiper-slide{
+background-color:black;
+}*/
+.show_date .swiper-slide a{
+display: block;
+  background-color:gray;
+  color: white;
+  line-height: 95px;
+  width: 100%;
+}
+.show_date .swiper-slide.current a{
+background-color: black;
+color: #F2AB39;
+border-bottom: 2px solid #F2AB39;
+}
+.movie_calendar{
+position: absolute;
+top:110px;
+right:1px;
+z-index:1000;
+}
+.movie_calendar text{
+width:0px;
+}
+.movie_calendar img{
+width: 100px;
+height: 110px;
+}
+
+.swiper-slide a{
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+
+.show_date .swiper-slide a:hover{
+opacity:0.5;
+color: #F2AB39;
+border-bottom: 2px solid #F2AB39;
+}
+
+/* .swiper-wrapper .swiper-slide{
+border-top: 1px solid gray;
+border-bottom: 1px solid gray;
+}*/
+.movie-mySwiper .swiper-slide img{
+width:300px;
+height:480px;
+margin-top:20px;
+}
+.swiper-section{
+display: block;
+}
+.swiper-section a{
+display:flex;
+justify-content: center;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.show_menu_date{
+background-color:black;
+}
+.show_menu_date input{
+text-align:center;
+width:50px;
+color: white;
+font-weight: bold;
+border: none; 
+background: transparent;
+
+}
+
+.tab-content{
+display : none;
+margin-top: 200px;
+}
+.tab-content.current{
+display : block;
+}
+
+/* 좌석예약 */
+.seat-choice{
+  margin-top:100px;
+  width:100%;
+}
+
+.seat-choice .wrapper{
+  display: flex;
+  justify-content: center; 
+}
+
+.sh-screen{
+  border: 2px solid lightgray;
+}
+.tit-line{
+  border: 2px solid lightgray;
+  padding:20px;
+}
+.theater-number{
+  margin:20px;
+}
+.screen-img{
+  margin:20px;
+}
+.sh-screen{ /* screen img 위치 조정 */
+  display: flex;
+}
+.sh-seat{
+  border: 2px solid lightgray;
+}
+.col-btn{ /* A열, B열 등 열 관련 버튼 */
+  border: 2px solid #F2AB39;
+  background-color: black;
+  color:white;
+  padding:5px;
+}
+
+.row-btn{ /*A-1, A-2번 등 행 관련 버튼 */
+  border: 2px solid #F2AB39;
+  background-color: lightgray;
+  color:white;
+  padding:5px 10px;
+}
+
+.seat-btn{
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:20px;
+  display : flex;
+}
+.left-seat-btn{
+  display: flex;
+  flex: 1 1 50%;
+  justify-content: flex-start;
+  margin-left: 100px;
+}
+.right-seat-btn{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+}
+.title-name{
+  color:#F2AB39;
+  font-weight: bold;
+  font-size:10px;
+  margin-top:20px;
+}
+.movie-show{
+ font-weight: bold;
+ font-size:18px;
+ color:#333;
+}
+.movie-info{
+ font-weight: bold;
+ font-size:18px;
+ margin-top:5px;
+ color:#333;
+}
+.view-info{
+  border: 2px solid lightgray;
+  padding: 10px;
+}
+.movie-result{
+  margin-top: 20px;
+}
+.movie-result input{
+  border: 2px solid #F2AB39;
+  background-color: lightgray;
+  color:black;
+  font-size:15px;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+.row-btn:active{
+   background-color:black;
+   color:white;   
+}
+
+.flex_type{
+   display:flex;
+}
+
+.door_left{
+  position: absolute;
+  left:300px;
+}
+.door_top{
+  position: absolute;
+  top:320px;
+  left:900px;
+}
+
+/* 상영시간표 */
+
+.title_content{
+   text-align: center;
+   background-color:black;
+   border: 2px solid #F2AB39;
+}
+.title_content h3{
+   color:white;
+   padding: 30px;
+   font-size: 20px;
+   font-weight: bold;
+}
+.show_clock_content{
+   display:flex; 
+   justify-content: center;
+}
+.clock_left_content{
+   margin-right:20px;
+}
+.clock_left_content img{
+   width:300px;
+   height:480px;
+   margin-top:20px;
+}
+.clock_right_content{
+   display:flex;
+   align-items: center;
+}
+.clock_right_content table td{
+   padding:20px;
+   text-align:center; 
+}
+.clock_right_content table th{
+   padding:20px;
+   text-align:center; 
+   font-size: 18px;
+   font-weight: bold;
+}
+.clock_right_content table a{
+   padding:20px;
+   text-align:center;
+}
+.clock_right_content table a:hover{
+   color:#F2AB39;
+}
+/* 예매 성공 페이지 */
+.complete_content{
+   text-align:center;
+}
+.complete_title{
+   text-align: center;
+   background-color:black;
+   border: 2px solid #F2AB39;
+}
+.complete_title h2{
+   text-align:center;
+   color:white;
+   padding: 30px;
+   font-size: 20px;
+   font-weight: bold;
+}
+.complete_table{
+   display: flex;
+   justify-content: center;
+}
+.complete_table th{
+   padding: 20px 30px;
+   text-align:center; 
+   font-size: 18px;
+   font-weight: bold;
+   
+}
+.complete_table td{
+   padding: 20px 30px;
+}
+.complete_message{
+   margin-top:100px;
+   margin-bottom: 30px;
+   padding:10px;
+   font-size: 15px;
+   font-weight: bold;
+}
+.complete_btn{
+   margin-top:30px;
+   padding: 20px 30px;
+}
+
+/* 영화 예매 확인 페이지 */
+.checkCancle_content{
+   margin-top:100px;
+   text-align: center;
+}
+.checkCancle_content table{
+   display: flex;
+   justify-content: center;
+}
+.checkCancle_content table th{
+   padding:20px;
+   text-align:center; 
+   font-size: 18px;
+   font-weight: bold;       
+}
+
+.checkCancle_content table td{
+   padding:20px;
+   text-align:center;    
+}
+.checkCancle_btn_content{
+   margin-top:30px;
+}
+.checkCancle_btn_content a{
+   margin-right: 10px;
+}
+.checkCancle_btn_content input{
+   border: 2px solid #F2AB39;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.checkCancle_btn_content input:hover{
+   color: skyblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header */
+header{
+	width: 100%;
+	margin:0 auto;
+}
+header .logo{
+	display: flex;
+	justify-content: center;
+}
+header .login-menu{
+	display:flex;
+	clear:both;
+       position: absolute;
+       width: 200;
+       height: 30px;
+       float: right;
+       top: 10px;
+       right: 10px;
+       overflow: hidden;
+}
+header .login-menu a{
+		font-weight:900;
+		padding-left: 10px;
+}
+header .headmenu {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	background-color: #282828;
+	font-size: larger;
+	font: bold; 
+	justify-content: space-around;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+header .headmenu li a{
+	color: white;
+	justify-content: space-between;
+}
+
+/* index page */
+.main-conteiner{
+	width: 100%;
+	height : auto;
+    min-height: 100%;
+    background-color: #221a10;
+}
+.main-movie-list{
+	padding: 5%;
+}
+.list{
+	justify-content: space-evenly;
+	display: flex;
+}
+.li_moviepost{
+	padding:5%;
+	text-align:center;
+}
+.first-movie-list{
+	display:block;
+	text-overflow:ellipsis;
+	max-width: 100%;	
+	height: auto;
+}
+.list .li_moviepost a:hover .summary{
+   opacity: 1;
+      -moz-transform: translateY(-100px);
+      -ms-transform: translateY(-100px);
+      -o-transform: translateY(-100px);
+      -webkit-transform: translateY(-100px);
+      transform: translateY(-100px);
+      -moz-transform: translateX(7px);
+      -ms-transform: translateX(7px);
+      -o-transform: translateX(7px);
+      -webkit-transform: translateX(7px);
+      transform: translateX(7px);
+    
+}
+.poster{
+	z-index:5;
+}
+.summary{
+	position: absolute;
+	top:45%;
+	width:20%;
+	color:white;
+	font:bold;
+    z-index: 10;
+    opacity: 0;
+    -moz-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      background:rgba(0,0,0,0.6);
+}
+.list .summary{
+	position: absolute;
+    
+}
+.case{
+	border-radius:20px;
+	background-color: #F2AB39;
+}
+
+/* footer */
+footer{
+	padding-top: 1%;
+    padding-bottom: 1%;
+  	position: static;
+    line-height: 10px; 
+    background-color: #282828;
+}
+
+.sns ul{
+	
+	text-align: center;
+}
+.sns ul li{
+	display: inline-block;
+}
+.sns_img{
+	width:50px;
+	height:50px;
+}
+
+.copy{
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+	color : white;
+}
+
+
+ /* movie list */
+.main-conteiner_2{
+	width: 100%;
+	height : auto;
+    min-height: 100%;
+    background-color: gray;
+}
+.main-movie-list_2{
+	padding: 5%;
+}
+.list_2{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+.li_moviepost_2{
+	max-width: 25%;
+	text-align:center;
+}
+.first-movie-list_2{
+	position:relative;
+	display:block;
+	margin-left: 17%;
+    margin-right: 17%;
+}
+.li_moviepost_2 a:hover .summary_2{
+   opacity: 1;
+      -moz-transform: translateY(-100px);
+      -ms-transform: translateY(-100px);
+      -o-transform: translateY(-100px);
+      -webkit-transform: translateY(-100px);
+      transform: translateY(-100px);
+      -moz-transform: translateX(7px);
+      -ms-transform: translateX(7px);
+      -o-transform: translateX(7px);
+      -webkit-transform: translateX(7px);
+      transform: translateX(7px);
+    
+}
+
+.poster_2{
+    max-width: 100%;
+	z-index:5;
+}
+.summary_2{
+	position: absolute;
+	top:10%;
+	width:95%;
+	max-height: 85%;
+    overflow: hidden;
+	color:white;
+	font:bold;
+    z-index: 10;
+    opacity: 0;
+    -moz-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      background:rgba(0,0,0,0.6);
+}
+
+.case_2{
+	border-radius:20px;
+	background-color: #F2AB39;
+	margin-left: 17%;
+    margin-right: 17%;
+    margin-bottom: 20%;
+}
+	/* movie_title */
+.movie_t_container{
+	    padding: 5%;
+}
+
+.movie_t_border{
+	 display: flex;
+}
+.movie_t_border ul{
+	padding: 5%;
+	background-color: #282828;
+}
+.t_member{
+	color: white;
+}
+.case_t{
+	border-radius:20px;
+	background-color: #F2AB39;
+	text-align:center;
+    margin-bottom: 20%;
+}

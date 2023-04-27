@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+<display-name>Movie_project</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  	<servlet-name>ControllerUsingURI</servlet-name>
+  	<servlet-class>common.controller.ControllerUsingURI</servlet-class>
+  	<!-- command-handler간의 매핑정보를 가지고 있는 파일의 경로 -->
+  	<init-param>
+  		<param-name>configFile</param-name>
+  		<param-value>/property/commandHandlerURI.properties</param-value>
+  	</init-param>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ControllerUsingURI</servlet-name>
+  	<!-- suffix가 .do로 끝나는 url에 대하여 동작 -->
+  	<url-pattern>*.do</url-pattern>
+  </servlet-mapping>
+</web-app>

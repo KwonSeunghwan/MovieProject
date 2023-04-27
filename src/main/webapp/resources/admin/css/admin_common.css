@@ -1,0 +1,464 @@
+/* reset */
+
+
+*{
+    text-decoration: none; 
+    list-style: none;
+    border: none; 
+    color: black; 
+    font-family:"malgun gothic,AppleGothic,dotum";
+}
+body, html{
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    -webkit-text-size-adjust : none;
+      box-sizing: border-box;
+      font-weight: 300;
+}
+
+ul,ol,li, dl, dt, dd{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+a{
+    text-decoration: none; 
+    color: inherit;
+}
+a:hover {
+    text-decoration: none;
+}
+input, select, textarea, fieldset, button{
+    outline: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    min-width: auto;
+    border: 0;
+    cursor: pointer;
+}
+
+em{
+    font-style: normal;
+}
+textarea{
+    resize: none;
+}
+.hidden{
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+img{
+    width: 100%;
+}
+
+table{
+    border-collapse: collapse;
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.fc-white{
+    color:white !important;
+  }
+.fix-section{
+    width:100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.table{
+    width: 100%;
+}
+  
+.table{
+    border-top:1px solid #eee;
+    margin-bottom:45px
+}
+.table th,
+.table td{
+    padding: 3px; 
+    height:50px; /* 회원정보 수정 페이지 크기가 안맞을 때 조정(다른페이지도영향있음) */
+    border-bottom:1px solid #eee;
+    text-align:left;
+}
+.table th{
+    padding-left:20px;
+    background:#f6f6f6;
+    color:#000;
+    font-weight:500
+}
+.table td{
+    padding-left:15px;
+}
+.table input[type="text"],
+.table input[type="password"],
+.table input[type="email"]{
+    border:1px solid #ddd;
+    height:50px;
+    padding: 0 10px;
+}
+.product_table td{
+    font-size:14px;
+
+}
+.max-width{
+    width: 100%;
+}
+.main_content .none-bg{
+    background-color: white;
+}
+
+  
+  
+
+
+/* common */    
+
+
+.content{ /* 레이아웃 조절 */
+    width: 100%;
+    min-width: 1400px;
+}
+.wrapper{ 
+    width: 100%;
+    max-width: 1400px;
+}
+.logo_img{
+    width: 200px;
+}
+.btn{
+    /* display:block; */
+    padding:10px;
+    border-radius: 3px;
+    text-align: center;  
+    font-weight: 400;
+    border: 1px solid transparent; /* transparent : 투명 */
+}
+.write_board_btn{
+    float:right;
+}
+.center_btn{
+    text-align: center;
+}
+.gray_border_btn{
+    background: none;
+    border:1px solid #6c757d;
+    color:black;
+    font-size:17px;
+}
+.gray_btn{
+    background-color:#6c757d;
+    border-color: #6c757d;;
+    color:white;
+    font-size:17px;
+}
+.green_btn{
+    background-color: green;
+    border-color:green;
+    color:white;
+}
+.inline_block_btn{
+    display: inline-block;
+    vertical-align: middle;
+}
+.lg_btn{
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+.max_btn{
+    width:100%;
+    height:40px;
+    line-height: 20px;
+}
+h4{ /* 관리자 Logo 영역의 글씨 */
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.welcome{
+    color: rgb(250, 229, 198);
+}
+
+.text_underline{
+    border-bottom: 1px solid white;
+    color: white /* 로그아웃 부분 글씨 색깔 변경*/
+}
+
+.address_num_size{
+    width:200px;
+}
+.address_size{
+    width:400px;
+    margin-right: 5px; 
+}
+
+
+/* login */
+
+
+.login_container{
+    display:flex;
+    position: fixed;
+    width:100%;
+    height:100%;
+    align-items: center;
+}   
+
+.login_frm{
+  margin: 0 auto;
+  border: none;
+}
+h4 .header_text{
+    font-size: 18px;
+    color: white;
+}
+.login_frm input[type="text"]{
+    padding: 10px 140px 10px 10px;
+    margin-bottom: 1px;
+    border: 1px solid #5E5E5E;
+    border-radius: 3px;
+}
+.checkbox{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+
+
+/* main */
+
+
+.main_content{ /* 레이아웃 영역 */
+    border: 1px solid gray;
+    display: flex;
+    height:100%;
+    /* flex-direction: row; */
+}
+.left_content{
+    background-color: #384233;
+    justify-content: start;
+    display:flex;
+    /* flex-direction: column; */
+    flex-shrink: 0;
+}
+.right_content{
+    flex-grow: 1;
+}
+.right_content .right_wrapper{
+    height: 100%;
+}
+.main_content header{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.main_content header nav{
+    border-top: 2px solid gray;
+    height: 100%;
+}
+.main_content .main{
+    background-color: #FbFFF8;
+    height: 100%;
+}
+
+
+/* left_content 영역 */
+
+
+.profile_picture{/* header 프로필 사진 영역 */
+    width: 100%;
+    height: 100%;
+/*    object-fit: cover;    // ie에서 안나옴 */
+    border-radius: 50%;
+}
+.profile_size{ 
+    margin: 0 auto;
+    margin-top: 40px;
+    width:100px;
+    height:100px;
+}   
+.border_circle{
+    border: 2px solid gray;
+    border-radius: 50%;
+}
+
+.side_nav{ /* nav 메뉴 영역 */
+    padding-left:0;
+    margin-left: 5px;
+}
+.sidebar{ 
+    border-top: 1px solid rgba(255,255,255,.15);
+}
+.sidebar-title{
+    color: rgba(255,255,255,.4);
+    text-align: left;
+    font-size: 10px;
+}
+.nav_link{
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+    width: 14rem;
+}
+.nav_item{
+    font-size: 13px;
+    color: rgba(255,255,255,.8);
+}
+/* .left_content{
+    background-color: skyblue;
+    width:250px;
+    min-width:250px;
+}
+
+.right_cotent{
+    width:100%;
+    min-width:1350px;
+}
+.wrapper.left_wrapper{
+    width:250px;
+    max-width: 250px;
+}
+.wrapper.right_wrapper{
+    width: 100%;
+    max-width: 1350px;
+}
+ */
+
+
+
+ /* right_content 영역 */
+
+ 
+.member_list{
+     width:100%;
+     border: 1px solid black;
+}
+.memeber_list tr{
+     border: 1px solid black;
+}
+.member_list td{
+     border: 1px solid black;
+     text-align: center;    
+}
+h2{ /* main 페이지의 header 영역 */ 
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding-top: 15px;
+    padding-left: 15px;    
+}
+
+
+.detail_board_member_tb{ /* 회원 상세 페이지 영역 */
+    width:800px;
+    margin-top:100px;
+    margin-bottom: 50px;
+    margin: 0 auto;
+    text-align: left;
+}
+.detail_board_member_tb th{
+    width:130px;
+    border: 1px solid black;
+    background-color: #384233; 
+    color: mintcream;
+    padding: 20px;
+    opacity: 0.7;
+}
+.detail_board_member_tb td{
+    border: 1px solid lightgray;
+    padding-left:10px;
+}
+
+.detail_btn_list{ /* 회원정보 수정 페이지 영역 */
+    margin-left: 500px;
+}
+
+.form-box{ 
+    border: 1px solid black;
+    width:calc(100% - 10%);
+    margin: auto;
+    height:44px;
+    padding: 0 10px;
+}
+
+.member_del_value{ /* 회원정보 삭제 페이지 영역 */
+    text-align: center;
+}
+.member_del_value input{
+    padding: 10px;
+}
+.detail_board_tb{
+    width: 1000px
+}
+.admin_list_img_size{
+    width:100px;
+    height:100px;
+}
+
+
+
+/* 페이지 이동 영역 */
+.paging{width:100%;margin-top:25px;}
+.paging{text-align:center;overflow:hidden;}
+.paging a{position:relative;display:inline-block;zoom:1;vertical-align:middle;height:2.188rem;line-height:2.188rem;font-size:1rem;color:#666;margin:0 0.3125rem;vertical-align:middle;}
+.paging a:hover,.paging a:focus,.paging a:active{text-decoration:none;}
+
+.paging .on{color:#00a9a9;}
+.paging .first:before,.paging .prev:before,.paging .next:before,.paging .last:before{content:'';display:block;width:2.188rem;height:2.188rem;position:absolute;top:0%;left:0;overflow:hidden;background:url(../image/paging.png) no-repeat}
+.paging .first,.paging .prev,.paging .next,.paging .last{text-indent:-9999px;width:2.188rem;height:2.188rem;}
+.paging .first{margin-left:0;}
+.paging .prev{margin-left:0;margin-right:10px;}
+.paging .next{margin-left:10px;}
+.paging .last{margin-left:0;}
+.paging .prev:before{background-position:right 0}
+.paging .next:before{background-position:right bottom}
+.paging .last:before{background-position:0 bottom}
+
+
+/* 회원 삭제 모달 창 영역*/
+.modal-wrap {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2000;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    overflow: hidden;
+  }
+  
+  .modal-wrap.is-visible {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .modal-wrap .modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    min-width: 31.25rem;
+    min-height: 20.625rem;
+    max-width: 90vw;
+    max-height: 90vh;
+    padding: 3.125rem;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background: #fff;
+    border-radius: 0.25rem;
+    overflow-y: auto;
+    padding-top: 21px;
+  }
